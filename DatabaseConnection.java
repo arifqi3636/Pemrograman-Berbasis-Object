@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.peliharaan;
+package com.mycompany.main;
 
 /**
  *
@@ -14,7 +14,7 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/todo_system"; // Ganti 'your_database_name' dengan nama database Anda
+    private static final String URL = "jdbc:mysql://localhost:3306/library_system"; // Ganti 'your_database_name' dengan nama database Anda
     private static final String USER = "root"; // Ganti 'your_username' dengan username database Anda
     private static final String PASSWORD = ""; // Ganti 'your_password' dengan password database Anda
 
